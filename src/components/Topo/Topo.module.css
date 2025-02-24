@@ -1,0 +1,16 @@
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    border: 1px solid #000;
+}
+.lista{
+    display: flex;
+    align-items: center;
+    list-style-type: none;   
+    gap: 50px;
+    margin-right: 50px;
+}

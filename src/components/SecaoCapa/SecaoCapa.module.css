@@ -1,0 +1,25 @@
+.capa{
+    width: 1024px;
+    margin: 0 auto;
+}
+.imagem{
+    width: 100%;
+    max-width: 1024px;
+    object-fit: cover;
+}
+.texto{
+    position: relative;
+    color: white;
+    top: -400px;
+    left: 80px;
+}
+
+.texto>h1{
+    margin: 20px 0;
+    font-size: 50px;
+    color: cyan;
+}
+
+.texto>p{
+    font-size: 30px;
+}
