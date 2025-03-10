@@ -1,0 +1,29 @@
+.containerTexto {
+    width: 450px;
+    text-align: center;
+    margin: -100px auto 70px auto;
+}
+.containerTexto>h3{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.gridFotos{
+    width: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto 0 auto;
+    justify-items: center;
+    gap: 55px;
+}
+
+.gridFotos>picture{
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.gridFotos>picture>h1{
+    font-size: 18px;
+    margin: 15px auto 15px auto;
+    text-align: center;
+}

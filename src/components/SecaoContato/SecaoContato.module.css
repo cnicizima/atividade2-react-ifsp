@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    justify-content: space-between;
+    margin: 20px auto 0 auto;
+}
+
+.containerLogo{
+    text-align: center;
+}
+.containerInfos{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.colunaInfo{
+    text-align: center;
+}
+.colunaInfo>h2{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,40 @@
+.gridContainer{
+    width: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto 0 auto;
+    justify-items: center;
+    gap: 1px;
+}
+
+.gridContainer>div{
+    border: solid 1px black;
+    width: 324px;
+    border-radius: 5px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.gridContainer>div>h1{
+    font-size: 16px;
+}
+
+.gridContainer>div>p{
+    font-size: 12px;
+}
+
+.textoContainer{
+    width: 450px;
+    text-align: center;
+    margin: 100px auto 70px auto;
+}
+
+.textoContainer>h1{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.textoContainer>p{
+    font-size: 12px;
+}

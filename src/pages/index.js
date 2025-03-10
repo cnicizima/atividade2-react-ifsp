@@ -3,6 +3,10 @@ import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Topo from "@/components/Topo";
 import SecaoCapa from "@/components/SecaoCapa";
+import SecaoProdutos from "@/components/SecaoProdutos";
+import SecaoSobre from "@/components/SecaoSobre";
+import SecaoContato from "@/components/SecaoContato";
+import Rodape from "@/components/Rodape";
 
 
 
@@ -17,6 +21,10 @@ export default function Home() {
       </Head>
       <Topo />
       <SecaoCapa />
+      <SecaoProdutos />
+      <SecaoSobre />
+      <SecaoContato />
+      <Rodape />
     </>
   );
 }

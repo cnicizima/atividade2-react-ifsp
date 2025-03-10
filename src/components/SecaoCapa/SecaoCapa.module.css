@@ -23,3 +23,14 @@
 .texto>p{
     font-size: 30px;
 }
+
+/* @media(max-width:768px){
+    .texto>h1{
+        margin: 10px 0;
+        font-size: 25px;
+    }
+    
+    .texto>p{
+        font-size: 15px;
+    }
+} */
