@@ -9,7 +9,7 @@
 }
 
 .gridFotos{
-    width: 650px;
+    width: 705px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 20px auto 0 auto;
@@ -20,10 +20,19 @@
 .gridFotos>picture{
     border: solid 1px black;
     border-radius: 10px;
+
 }
 
 .gridFotos>picture>h1{
     font-size: 18px;
     margin: 15px auto 15px auto;
     text-align: center;
+}
+
+.imagem{
+    transition: transform 0.3s ease-in-out;
+    padding: 15px;
+}
+.imagem:hover{
+    transform: scale(1.05);
 }

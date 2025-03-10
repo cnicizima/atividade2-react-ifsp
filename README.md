@@ -169,3 +169,7 @@ Marilene Esquiavoni
         background-position: 90% center;
     }
 }
+
+ajustar media query
+
+no global scroll margin top o tamanho do topo pra descontar. aplicar na section global. section 
