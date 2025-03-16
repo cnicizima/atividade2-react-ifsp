@@ -1,22 +1,49 @@
-.topo{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 50px;
-    width: 100%;
-    max-width: 1024px;
-    margin: auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background-color: white;
+.topo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
-.lista{
-    display: flex;
-    align-items: center;
-    list-style-type: none;   
-    gap: 50px;
-    margin-right: 50px;
+
+.topo img {
+  height: 100px;
+}
+
+.containerLista {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.lista {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+
+@media (min-width: 1024px) {
+    .topo {
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 1024px;
+    }
+  }
+
+@media (max-width: 768px) {
+  .lista {
+    gap: 25px;
+  }
+
+  
+}
+
+@media (max-width: 550px) {
+  .lista {
+    gap: 5px;
+  }
 }

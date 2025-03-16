@@ -39,3 +39,22 @@
     font-size: 12px;
 }
 
+@media (max-width: 786px){
+    .gridContainer{
+        width: 550px;
+    }
+    .gridContainer>div{
+        width: 220px;
+    }
+    .imagem{
+        width: 200px;
+    }
+    
+}
+
+@media (max-width: 550px){
+    .gridContainer{
+        width: 549px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

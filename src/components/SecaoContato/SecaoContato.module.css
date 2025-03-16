@@ -1,7 +1,8 @@
 .container {
     display: flex;
     flex-direction: row;
-    width: 1024px;
+    width: 100%;
+    max-width: 1024px;
     justify-content: space-between;
     margin: 20px auto 0 auto;
 }
@@ -12,7 +13,7 @@
 .containerInfos{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -21,4 +22,28 @@
 }
 .colunaInfo>h2{
     margin-bottom: 15px;
+}
+
+@media (max-width: 768px){
+    .containerLogo{
+        font-size: 15px;
+    }
+    .colunaInfo>h2{
+        font-size: 24px;
+    }
+    .colunaInfo>h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 550px){
+    .containerLogo{
+        text-align: center;
+    }
+    .colunaInfo>h2{
+        font-size: 18px;
+    }
+    .colunaInfo>h3{
+        font-size: 14px;
+    }
 }

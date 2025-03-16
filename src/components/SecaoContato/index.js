@@ -3,7 +3,7 @@ import style from './SecaoContato.module.css'
 export default function SecaoContato() {
     return (
         <>
-            <div className={style.container}>
+            <div id='contato' className={style.container}>
                 <div className={style.containerLogo}>
                     <img src='/logo.png' />
                     <h5>Increase your sales business</h5>

@@ -36,3 +36,56 @@
 .imagem:hover{
     transform: scale(1.05);
 }
+
+@media (max-width: 768px){
+    .containerTexto {
+        width: 350px;
+        text-align: center;
+        margin: -100px auto 70px auto;
+    }
+    .containerTexto>h3{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .containerTexto>h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .gridFotos{
+        width: 550px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px auto 0 auto;
+        justify-items: center;
+        gap: 5px;
+    }
+    .imagem{
+        width: 220px;
+    }
+    
+}
+
+@media (max-width: 550px){
+    .containerTexto {
+        width: 350px;
+        text-align: center;
+        margin: -100px auto 70px auto;
+    }
+    .containerTexto>h3{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .containerTexto>h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .gridFotos{
+        width: 549px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px auto 0 auto;
+        justify-items: center;
+        gap: 30px;
+    }
+    
+}

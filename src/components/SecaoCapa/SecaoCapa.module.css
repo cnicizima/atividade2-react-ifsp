@@ -1,10 +1,10 @@
 .capa{
-    width: 1024px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    margin: 100px auto 0 auto;
 }
 .imagem{
     width: 100%;
-    max-width: 1024px;
     object-fit: cover;
 }
 .texto{
@@ -24,13 +24,32 @@
     font-size: 30px;
 }
 
-/* @media(max-width:768px){
+@media(max-width:768px){
+    .texto{
+        top: -350px;
+    }    
     .texto>h1{
-        margin: 10px 0;
-        font-size: 25px;
-    }
-    
+        font-size: 50px;
+    }    
     .texto>p{
-        font-size: 15px;
+        font-size: 30px;
     }
-} */
+}
+
+@media(max-width:630px){
+    .texto{
+        top: -300px;
+    }
+}
+
+@media(max-width:550px){
+    .texto{
+        top: -280px;
+    }    
+    .texto>h1{
+        font-size: 40px;
+    }
+        .texto>p{
+        font-size: 20px;
+    }
+}
