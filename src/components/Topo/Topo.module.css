@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  max-width: 1024px;
   height: 100px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   background-color: white;
@@ -25,25 +26,29 @@
   gap: 30px;
 }
 
-
 @media (min-width: 1024px) {
-    .topo {
-      left: 50%;
-      transform: translateX(-50%);
-      max-width: 1024px;
-    }
+  .topo {
+    left: 50%;
+    transform: translateX(-50%);
   }
+}
 
 @media (max-width: 768px) {
   .lista {
     gap: 25px;
   }
-
-  
+  .topo {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 @media (max-width: 550px) {
   .lista {
     gap: 5px;
+  }
+  .topo {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

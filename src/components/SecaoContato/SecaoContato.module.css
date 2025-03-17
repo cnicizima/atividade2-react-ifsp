@@ -4,7 +4,8 @@
     width: 100%;
     max-width: 1024px;
     justify-content: space-between;
-    margin: 20px auto 0 auto;
+    margin: 20px auto;
+    padding-right: 40px;
 }
 
 .containerLogo{
