@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    max-width: 1024px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.containerLista{
+    display: flex;
+    align-items: center;
+}
+.lista{
+    display: flex;
+    list-style-type: none;
+    gap: 10%;
+}
+
+.container picture img{
+    height: 100px;
+}

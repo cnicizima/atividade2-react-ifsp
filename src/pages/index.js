@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import Topo from "@/components/Topo";
+// import Topo from "@/components/Topo";
+import Topo2 from "@/components/Topo2";
 import SecaoCapa from "@/components/SecaoCapa";
 import SecaoProdutos from "@/components/SecaoProdutos";
 import SecaoSobre from "@/components/SecaoSobre";
@@ -19,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Topo />
+      <Topo2 />
       <SecaoCapa />
       <SecaoProdutos />
       <SecaoSobre />
